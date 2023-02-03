@@ -27,7 +27,7 @@ module ScreenshotOne
       :full_page_scroll_delay, :full_page_scroll_by, :viewport_width, :viewport_height,
       :device_scale_factor, :image_width, :image_height,
       :geolocation_latitude, :geolocation_longitude, :geolocation_accuracy,
-      :delay, :timeout, :cache_ttl
+      :delay, :timeout, :cache_ttl, :scroll_into_view_adjust_top
     ]
     ENUM_OPTIONS = {
       format: %w(png jpeg jpg webp gif jp2 tiff avif heif html),
