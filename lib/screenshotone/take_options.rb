@@ -16,7 +16,7 @@ module ScreenshotOne
       :wait_until, :delay, :timeout, :wait_for_selector,
       :cache, :cache_ttl, :cache_key,
       :store, :storage_path, :storage_bucket, :storage_class,
-      :error_on_selector_not_found, :scroll_into_view, :scroll_into_view_adjust_top
+      :error_on_selector_not_found, :scroll_into_view, :scroll_into_view_adjust_top, :block_banners_by_heuristics
     ]
     BOOLEAN_OPTIONS = [
       :full_page, :full_page_scroll, :viewport_mobile, :viewport_has_touch, :viewport_landscape, :omit_background,
