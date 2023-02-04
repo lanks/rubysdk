@@ -21,7 +21,7 @@ module ScreenshotOne
     BOOLEAN_OPTIONS = [
       :full_page, :full_page_scroll, :viewport_mobile, :viewport_has_touch, :viewport_landscape, :omit_background,
       :dark_mode, :reduced_motion, :block_cookie_banners, :block_chats, :block_ads, :block_trackers,
-      :cache, :store, :error_on_selector_not_found
+      :cache, :store, :error_on_selector_not_found, :block_banners_by_heuristics
     ]
     NUMERIC_OPTIONS = [
       :full_page_scroll_delay, :full_page_scroll_by, :viewport_width, :viewport_height,
